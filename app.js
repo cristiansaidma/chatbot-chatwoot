@@ -23,7 +23,7 @@ const curso = require('./flows/curso')
 const examen = require('./flows/examen')
 
 
-const PORT = process.env.PORT ?? 3001
+const PORT = process.env.PORT ?? 3002
 const serverHttp = new ServerHttp(PORT)
 
 const chatwoot = new ChatwootClass({
